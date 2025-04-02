@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Technical-Vocational-Livelihood</title>
+  <style>
+   /* Mobile First Design */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  background: linear-gradient(to right, #1e3a8a, #3b82f6);
+  color: white;
+  padding: 20px;
+  width: 100%;
+  text-decoration: none;
+  flex-wrap: wrap;
+}
+
+.header img {
+  width: 60px;  /* Adjusted for mobile */
+  height: auto;
+}
+
+.header h1 {
+  font-size: 1.5rem;  /* Scaled down for mobile */
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.outer-container {
+  background-color: #0b3d91;
+  padding: 20px;  /* Reduced padding for mobile */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.top-row {
+  display: flex;
+  flex-direction: column;  /* Stack vertically for mobile */
+  justify-content: center;
+  gap: 20px;
+}
+
+.image-box {
+  background-color: #0f2a63;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;  /* Full width for mobile */
+  text-align: center;
+  height: auto;
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.box-right {
+  width: 100%;  /* Full width for mobile */
+  background-color: #1a4a9e;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;  /* Reduced padding for mobile */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  height: auto;
+}
+
+.upload-container {
+  background-color: #0f2a63;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.text-box {
+  background-color: #1a4a9e;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;  /* Reduced padding for mobile */
+  text-align: center;
+  width: 100%;
+}
+
+.text-box h1 {
+  background-color: #0f2a63;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 1.5rem;  /* Scaled down for mobile */
+  margin-bottom: 20px;
+}
+
+.learn-more-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1e3a8a;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  transition: background 0.3s;
+}
+
+.learn-more-btn:hover {
+  background-color: #4f9cff;
+}
+
+.footer {
+  background-color: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 10px;  /* Reduced padding for mobile */
+  font-size: 0.8rem;  /* Scaled down for mobile */
+  width: 100%;
+}
+
+/* Media Query for larger screens */
+@media (min-width: 768px) {
+  .top-row {
+    flex-direction: row;  /* Row layout for larger screens */
+  }
+  
+  .image-box {
+    width: 60%;  /* Adjust width for larger screens */
+  }
+  
+  .box-right {
+    width: 30%;  /* Adjust width for larger screens */
+  }
+  
+  .text-box h1 {
+    font-size: 2rem;  /* Larger font size for desktop */
+  }
+}
+
+  </style>
+</head>
+<body>
+  <a href="index.html" class="header">
+    <img src="IMAGES 2.0/sto_cristo-removebg-preview.png" alt="School Logo" />
+    <h1>STO CRISTO INTEGRATED SCHOOL</h1>
+  </a>
+  
+  <!-- Outer container wrapping all boxes -->
+  <div class="outer-container">
+    <div class="container">
+      <div class="top-row">
+        <!-- Image Box -->
+        <div class="image-box">
+          <img src="IMAGES 2.0/tvlpic.jfif" alt="STEM Image" />
+        </div>
+      
+        <!-- Registration Box -->
+        <div class="box-right">
+          <h1>REGISTRATION</h1>
+          <div class="upload-container">
+            <div class="register-box">
+              <p>Click below to explore more about STEM courses and career opportunities.</p>
+              <a href="https://forms.gle/uBTW2xTxiC86vkhW8" class="learn-more-btn">Click Here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Text Box (Below the top row) -->
+      <div class="text-box">
+        <h1>ABOUT Technical-Vocational-Livelihood</h1>
+        <p>
+            The Technical-Vocational-Livelihood (TVL)
+            strand is a senior high school track designed for
+             students who want to gain hands-on experience and practical skills 
+             in various technical fields. TVL provides specialized training in areas
+              such as Home Economics, Information and Communications Technology (ICT),
+               Industrial Arts, and Agri-Fishery Arts, preparing students for immediate
+                employment, entrepreneurship, or further technical education.
+
+           Students in the TVL strand engage in skills-based learning, industry-based training, 
+           and certifications that align with real-world job demands. They also have the 
+           opportunity to earn TESDA National Certificates (NCs), which serve as professional 
+           credentials recognized by employers both locally and internationally. This strand 
+           is ideal for students who wish to pursue careers as chefs, mechanics, electricians, 
+           programmers, agriculturists, or business owners in various skilled industries
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+<footer class="footer">
+    <p>© 2025 Sto Cristo Integrated School. All Rights Reserved.</p>
+</footer>
+</html>
